@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.toggle ul {
+    list-style: none;
+
+}
+
+.toggle ul li {
+    display: inline;
+    padding-right: 55px;
+
+
+}
+
+.toggle ul li a {
+    color: #fd5e00;
+}
+
+.toggle ul li a:hover {
+    color: #ffffff;
+}
+
+#logoimage {
+    width: 60px;
+    height: 60px;
+    margin-left: 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#logotext {
+    font-weight: 900;
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logotext:hover {
+    background: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    /* margin: 10px;
+    padding: 15px 45px; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+#bold-ct {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+#regular-ct {
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+
+.chatbutton {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    /* margin: 10px;
+    padding: 15px 45px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 10px;
+    /* display: block; */
+
+}
+
+.chatbutton:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.chatbuttonsmall {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    /* margin: 10px;
+    padding: 15px 45px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 10px;
+    /* display: block; */
+
+}
+
+.chatbuttonsmall:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    display: block;
+    /* background-color: antiquewhite; */
+}
+
+.cover {
+    background-image: url(../images/coverplain.jpg);
+    background-size: 100% 100%;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center;  */
+    align-items: center;
+    /* background-color: rgb(103, 74, 29); */
+    /* border: 2px solid black;  */
+}
+
+.covertext {
+    /* border: 2px solid black; */
+    /* height: 30%; */
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    align-self: center;
+    display: blocks;
+}
+
+section {
+    text-align: center;
+}
+
+/* h2 {
+    font-size: 2rem;
+    margin: 50px;
+} */
+.work {
+    margin-top: 50px;
+}
+
+.workhead {
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.workhead2 {
+    margin-top: 50px;
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brand1,
+.brand2,
+.brand3 {
+    margin: 25px 15px 0px;
+    height: 100px;
+    width: 350px;
+}
+
+.task1 {
+    /* background-color: blueviolet; */
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.task1img {
+    width: 50%;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.task1text {
+    /* background-color: beige; */
+    width: 50%;
+}
+
+.task1 p {
+    font-size: 2.5rem;
+    margin: 75px 50px;
+    font-weight: 800;
+    color: #FFCC14;
+}
+
+
+.task2 {
+    /* background-color: rgb(85, 136, 141); */
+    height: 500px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    /* border: 1px solid black; */
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.task2img {
+    /* background-color: rgb(190, 222, 212); */
+    width: 50%;
+}
+
+.task2text {
+    /* background-color: #1a1f2c; */
+    width: 50%;
+}
+
+.task2text div {
+    margin-top: 175px;
+}
+
+.task2 p {
+    margin: 100px 50px 25px auto;
+}
+
+.consult {
+    margin: 25px;
+    height: 300px;
+}
+
+.consulthead {
+    margin: 150px 0px 65px 0px;
+}
+
+.consulthead {
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    /* border: 1px solid black; */
+    /* box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
+}
+
+.servicetag1 {
+    width: 30%;
+    overflow: auto;
+    /* background-color: navajowhite; */
+}
+
+.stdiv1 {
+    margin-top: 10px;
+}
+
+#codeimg {
+    height: 100px;
+    width: 100px;
+}
+
+.adjusttxt {
+    font-size: 1rem;
+
+}
+
+.servicetag2 {
+    width: 70%;
+    display: flex;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+
+.st2c1 {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black;
+    background-color: blueviolet; */
+    margin-right: 50px;
+
+}
+
+.catimg {
+    height: 50px;
+    width: 50px;
+}
+
+.st2c2 {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black;
+    background-color: rgb(230, 230, 75); */
+
+}
+
+.catagory li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.package1 li,
+.package2 li {
+    list-style: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(9, 9, 9, .04);
+}
+
+.catagory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    margin: 0px 0px 27px 0px;
+    background-color: #FFD800;
+
+}
+
+.catagory:hover {
+    background-color: #FE8B00;
+}
+
+.pricing {
+    margin-top: 125px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+.pricinghead {
+    font-size: 2rem;
+    margin: 0px 0px 65px 0px;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    height: 100px;
+}
+
+.icon img {
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.starterp {
+    background-color: #FFD800;
+}
+
+.starterp h3 {
+    font-size: 3rem;
+}
+
+.pricepackages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check {
+    height: 18px;
+    width: 18px;
+    color: #FE8B00;
+}
+
+.package1,
+.package2 {
+    width: 48%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+}
+
+.package2:hover {
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.c-content {
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+}
+
+.chead {
+    margin-top: 70px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    height: 250px;
+    background-color: grey;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* .footbar-img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+} */
+.footer-content h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(255, 218, 0, 1) 0%, rgba(253, 94, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .toggle {
+        display: none;
+    }
+
+    #logoimage {
+        margin-left: 1rem;
+    }
+
+    #bold-ct {
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+    #regular-ct {
+        font-size: 1.1rem;
+    }
+
+    .chatbutton {
+        margin-top: 60px;
+    }
+
+    .cover {
+        height: 450px;
+    }
+
+    .work {
+        margin-top: 30px;
+    }
+
+    .workhead {
+        font-size: 0.8rem;
+    }
+
+    .brand1 {
+        margin: 40px 15px 0px;
+        height: 125px;
+        width: 250px;
+    }
+
+    .brand2,
+    .brand3 {
+        margin: 40px 15px 0px;
+        height: 125px;
+        width: 350px;
+    }
+
+    .workhead2 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .task1 {
+        height: auto;
+        width: auto;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .task1 p {
+        font-size: 1rem;
+        margin: 25px 0px 25px 0px;
+        font-weight: 800;
+        color: #FFCC14;
+    }
+
+    .task1 span {
+        font-size: 0.8rem;
+    }
+
+    .task2 {
+        height: auto;
+        width: auto;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .task2text div {
+        margin-top: 2px;
+    }
+
+    .task2 p {
+        font-size: 0.8rem;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .consult {
+        height: 275px;
+        margin: auto;
+    }
+
+    .consulthead {
+        font-size: 1.5rem;
+        margin: 70px 0px 0px 0px;
+    }
+
+    .services {
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+
+    .servicetag1 {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .servicetag2 {
+        display: block;
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .st2c1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .st2c2 {
+        width: auto;
+        align-items: center;
+    }
+
+    .pricing {
+        margin: auto;
+        width: auto;
+    }
+
+    #buttonadj {
+        margin-bottom: 30px;
+    }
+
+    .work {
+        margin: auto;
+    }
+
+    .pricinghead {
+        font-size: 1.5rem;
+        margin: 50px 0px 15px 0px;
+    }
+
+    .pricepackages {
+        display: block;
+    }
+
+    .package1,
+    .package2 {
+        width: auto;
+        margin: 25px 0px 0px 0px;
+    }
+
+    .contact {
+        display: block;
+        height: auto;
+    }
+
+    .c-content {
+        height: 200px;
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .chead {
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+
+    .c-content .chatbuttonsmall {
+        width: 117px;
+        margin: 20px;
+    }
+    .footer-content h1 {
+        font-size: 2.25rem;
+    }
+    .footimg{
+        height: 150px;
+        width: 150px;
+        margin-left: 10px;
+    }
+}
